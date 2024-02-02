@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(black, darkgray);
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-family: sans-serif;
+}
+.counterNum {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+  font-family: monospace;
+}
+#increase,
+#decrease {
+  font-size: 20px;
+  font-weight: 400;
+  height: 3.4rem;
+  width: 13rem;
+  background-color: transparent;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+#increase {
+  border: 2px solid red;
+  color: chartreuse;
+}
+#decrease {
+  border: 2px solid rgb(0, 51, 255);
+  color: rgba(220, 20, 207, 0.904);
+}
+
+#increase:hover {
+  background-color: rgba(0, 251, 255, 0.162);
+  color: #fff;
+}
+#decrease:hover {
+  background-color: rgba(0, 255, 0, 0.551);
+  color: red;
+}
